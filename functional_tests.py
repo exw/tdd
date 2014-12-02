@@ -3,7 +3,7 @@ import unittest
 
 class NewVisitorTest(unittest.TestCase):
     def setUp(self):
-        self.browser = webdriver.PhantomJS()
+        self.browser = webdriver.Firefox()
 
     def tearDown(self):
         self.browser.quit()

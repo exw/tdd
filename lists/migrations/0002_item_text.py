@@ -11,9 +11,10 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AlterField(
+        migrations.AddField(
             model_name='item',
             name='text',
             field=models.TextField(default=''),
+            preserve_default=True,
         ),
     ]

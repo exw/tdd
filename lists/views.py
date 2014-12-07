@@ -1,6 +1,4 @@
 from django.shortcuts import redirect, render
-from django.http import HttpResponse
-
 from lists.models import Item
 
 def home_page(request):
@@ -9,4 +7,4 @@ def home_page(request):
         return redirect('/')
 
     items = Item.objects.all()
-    return render(request, 'home.html', {'items': items}) 
+    return render(request, 'home.html', {'items': items})

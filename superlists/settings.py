@@ -24,7 +24,8 @@ DEBUG = False
 
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = ["collem.com"]
+ALLOWED_HOSTS = ["collem.com",
+                 "198.199.90.85"]
 
 
 # Application definition
